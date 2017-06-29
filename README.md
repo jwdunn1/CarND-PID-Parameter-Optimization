@@ -10,7 +10,7 @@ For comparison, the diagram below illustrates a default parameter optimization u
 ![Reference](./images/PID-reference.png "Reference results")
 
 
-On the other hand, when initialed with the values 𝜏<sub>p</sub>=0.86933, 𝜏<sub>i</sub>=0.014547, 𝜏<sub>d</sub>=8.785924, then a different optimal solution approaches the reference (red) line more gradually with minimal overshoot. This result is found in 16 iterations using the modified Twiddle with a tolerance of 1e-07 and total error of 9.25e-11. It is not the lowest error possible, but the resulting trajectory is smoother and more logical.
+On the other hand, when initialized with the values 𝜏<sub>p</sub>=0.86933, 𝜏<sub>i</sub>=0.014547, 𝜏<sub>d</sub>=8.785924, then a different optimal solution approaches the reference (red) line more gradually with minimal overshoot. This result is found in 16 iterations using the modified Twiddle with a tolerance of 1e-07 and total error of 9.25e-11. It is not the lowest error possible, but the resulting trajectory is smoother and more logical.
 
 ![Results](./images/PID-twiddled.png "Twiddle results")
 
